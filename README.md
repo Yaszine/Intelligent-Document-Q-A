@@ -1,76 +1,54 @@
-# Intelligent-Document-Q-A
+# Intelligent-Document-QA
 
+**Intelligent-Document-QA** is an AI-powered agent that answers questions from company documents such as PDFs, policies, contracts, and research papers.
 
-I build an AI agent that answers questions from company documents (PDFs, policies, contracts, research papers).
+---
 
-How:
+## How It Works
 
-Used embedding FAISS to index documents.
+1. **Document Indexing:** Uses FAISS embeddings to index documents.  
+2. **Context Retrieval:** Implements Retrieval-Augmented Generation (RAG) to fetch relevant context before prompting the LLM.  
+3. **Few-Shot Prompting:** Guides the AI to answer concisely and accurately.  
 
-Implement RAG to retrieve context before prompting the LLM.
+---
 
-Apply few-shot prompting to teach the agent how to answer concisely and accurately.
+## Key Enhancements
 
+### Visual Improvements
+- Custom CSS styling with improved colors, spacing, and hierarchy  
+- Enhanced chat interface with avatars and colored message bubbles  
+- Color-coded status indicators  
+- Document statistics displayed in the sidebar  
+- Progress bars for file processing  
+- Responsive layout with better use of columns  
 
+### Practical Improvements
+- File validation (type and size checks)  
+- Embedding caching to reduce API calls and costs  
+- Improved chunking algorithm with sentence awareness  
+- Robust error handling and logging  
+- API key validation before processing  
+- Temporary file handling for PDFs  
+- Chat history saving  
+- Timeout handling for API calls  
+- Enhanced prompt engineering for more accurate answers  
+- Memory management and proper cleanup  
+- Configurable settings via constants at the top  
+- Better document source tracking  
 
-Key Enhancements over the development of the project:
+### Performance Enhancements
+- Reduced API calls through caching  
+- Faster processing with optimized chunking  
+- Efficient memory usage  
+- Improved reliability with comprehensive error handling  
 
-**Visual Improvements:**
-Custom CSS styling with better colors, spacing, and visual hierarchy
+### User Experience
+- Clear status indicators throughout the workflow  
+- Feedback during file processing  
+- Enhanced document insights with statistics  
+- Improved answer quality via better prompting  
+- Chat management (clear/save)  
 
-Improved chat interface with avatars and colored message bubbles
+---
 
-Better status indicators with color-coded status messages
-
-Enhanced document statistics display in sidebar
-
-Progress bars for file processing
-
-Responsive layout with better use of columns
-
-**Practical Improvements:**
-File validation with size and type checks
-
-Embedding caching to reduce API calls and costs
-
-Improved chunking algorithm with sentence awareness
-
-Better error handling and logging throughout
-
-API key validation before processing
-
-Temporary file handling for PDF processing
-
-Chat history saving functionality
-
-Timeout handling for API calls
-
-Enhanced prompt engineering for better answers
-
-Memory management with proper cleanup
-
-Configurable settings with constants at the top
-
-Better document source tracking
-
-**Performance Enhancements:**
-Reduced API calls through caching
-
-Faster processing with optimized chunking
-
-Better memory usage with proper file handling
-
-Improved reliability with comprehensive error handling
-
-**User Experience:**
-Clear status indicators throughout the process
-
-Better feedback for users during processing
-
-Enhanced document insights with statistics
-
-Improved answer quality with better prompting
-
-Chat management options (clear/save)
-
-This enhanced version is more production-ready, user-friendly, and robust while maintaining all the original functionality.
+This enhanced version makes **Intelligent-Document-QA** more production-ready, user-friendly, and robust while retaining all the original functionality.
